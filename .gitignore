@@ -1,0 +1,14 @@
+# Machine-local tools and paths
+.venv/
+.isaac-sim-path
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+
+# Build stages from the tracked meshes, motion data and material maps.
+/ConveyorCell*.usdc
+/renders/*
+!/renders/PiPER-ExpSort.mp4
+!/renders/PiPER-ExpSort-preview.webp
+/MUJOCO_LOG.TXT

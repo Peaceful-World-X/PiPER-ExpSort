@@ -1,0 +1,50 @@
+# id entry_mark landing_mark flip time_edge
+0 1 1 0 -1
+1 0 1 1 10.867
+3 0 1 1 12.967
+4 1 1 0 -1
+6 1 1 0 -1
+7 1 1 0 -1
+9 0 1 1 20.567
+11 1 1 0 -1
+12 1 1 0 -1
+13 0 1 1 26.067
+16 1 1 0 -1
+18 0 1 1 31.967
+19 1 1 0 -1
+20 1 1 0 -1
+21 0 1 1 38.000
+22 0 1 1 39.933
+24 1 1 0 -1
+25 1 1 0 -1
+27 0 1 1 46.133
+29 1 1 0 -1
+30 1 1 0 -1
+31 0 1 1 52.233
+32 1 1 0 -1
+34 1 1 0 -1
+35 0 1 1 58.200
+36 1 -1 -1 -1
+# Real camera, first 1800 frames at 30 fps. ID is the zero-based index in routes() sorted by tau.
+# mark: 1 = visible printed shipping label/ink on exposed face, 0 = visibly blank, -1 = unseen.
+# flip: 1 = right-hand belt-to-mat face change, 0 = same face, -1 = transfer incomplete.
+# time_edge: nearest observed camera-edge profile on the turnover, seconds from frame 0, -1 = unavailable.
+# Flexible film, motion blur and 30 fps limit the estimates to about 1-2 frames. No signed joint angles measured.
+# All ten flips: blank face initially up, then presented broadly toward camera. On the forward/downward
+# stroke toward the mat the blank face narrows and rolls out of view; the opposite printed face opens upward.
+# The held edge is on image-right, the free span extends left. Edge roughly level on P01,03,13,18,21,27;
+# free end visibly lower than gripper on P09,22,31,35. These are camera directions; UV handedness is unmeasured.
+# Supplied image-1.png, real left panel: frame 316 = 10.533 s, P01 blank during lift. Edge at frame 326.
+# P00 is the earlier pink, printed throughout the visible swing. P06 has dark ink on silver at 15.2-16.1 s.
+# Same-face lifts still pitch/yaw. P11 label seen obliquely 22.23-22.37; P29 foreshortens around 47.97.
+# P34 narrows to a steep diagonal around 55.97-56.07, opens back out printed by 56.23; no net turnover.
+# Several rear-lane apexes clip the upper image boundary (e.g. P06,12,19,25); the apex face may be unresolved.
+# P36: actual ink visible on belt at 57.2, 58.4 and 59.2 s. Last frame 1799 = 59.967 s crops the rising pouch.
+# Its label detail is blurred at the cut. Neither landing nor left-hand transfer appears within the minute.
+# Left hand: 25 mat pickups. Moves pouches low across the mat, label up, toward the screen-left chute;
+# corners can tip as the free end clears the lip. No additional full face reversal visible before exit.
+# P04: first sweep stalls at rim 16.5-16.8; hand returns about 16.9-17.1 and clears pouch by ~17.4.
+# P31: blue pouch lingers at rim 53.7-53.9; hand follows at ~54.0 and clears it by ~54.2.
+# The camera shows the rim and only a sliver below it. Resting face inside chute is unknown.
+# Through-route discrepancy: P05, front silver pouch, shows plain film at 12.63-14.37 and 17.9-18.47.
+# The inspected route label flag was 1. The marked silver pouch behind it is P06. No other definite top-face mismatch.

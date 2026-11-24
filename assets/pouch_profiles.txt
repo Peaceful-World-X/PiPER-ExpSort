@@ -1,0 +1,89 @@
+# ident peak_mm offset_u offset_v span_u span_v exponent
+# ident = zero-based index in parcel_routes.routes() sorted by tau. Gaps 2, 15, 28 are cartons.
+# peak_mm = modelled maximum resting thickness between the skins, in millimetres.
+# For the fuller padded appearance, the single-camera 13--52 mm visual estimates were
+# remapped linearly to 23--56 mm, rounded to the nearest millimetre. Relative ranks are retained.
+# Local u = x / (length/2), v = y / (width/2). Both run from -1 to +1.
+# Offsets locate the crown centre; spans are characteristic half-widths in the same units.
+# Exponent is dimensionless: near 2 for a rounded crown, nearer 4 for a broad, squared shoulder.
+# Manual single-camera estimates from renders/真机_前一分钟.mp4. Frame numbers are zero-based at 30 fps.
+# Belt views were located by route crossing time and lane; mat frames use assets/landings.txt.
+# Compare the shaded sidewall, rolled shoulder and slack film inside the weld. Lift views help
+# distinguish a flexible flap from a filled end. Peak, offsets, spans and exponent are visual fits;
+# a bent corner, printed label or moving gripper shadow alone gives no reliable depth.
+
+# 00 pink | belt 186, lift 264, mat 286 | rounded belly above a loose, thin near seam.
+0   48    0.09 -0.14   0.77 0.69   2.2
+# 01 pink | belt 253, mat 342 | broad face with a rolled lower edge and a softer corner.
+1   37   -0.12 -0.11   0.82 0.68   3.1
+# 03 pink | lift 384, mat 402 | straight-sided sheet, little relief across the label.
+3   23   -0.03  0.02   0.90 0.85   3.8
+# 04 blue | belt 332, mat 468 | thin straight front edge, gently rounded area around label.
+4   28   -0.06  0.08   0.74 0.77   2.4
+# 05 white | belt 397, 460 | wide smooth face, narrow shaded lip across the near edge.
+5   35    0.07 -0.12   0.90 0.70   3.2
+# 06 white | belt 423, mat 531 | taut oblong body with a deep silver shoulder inside the weld.
+6   52   -0.08 -0.09   0.86 0.63   2.4
+# 07 pink | belt 469, mat 585 | nearly planar label panel, shallow roll along one margin.
+7   29    0.11  0.03   0.84 0.72   3.4
+# 08 white | belt 481, 544, 616 | pronounced rounded end wall, full central strip, free seam tips.
+8   56    0.05 -0.11   0.59 0.89   2.6
+# 09 pink | belt 534, mat 635 | scalloped near seam below a broad raised face.
+9   43    0.12 -0.12   0.83 0.73   3.3
+# 10 pink | belt 516, 546 | shallow label panel and thin leading corner; foreground bag crosses later.
+10  27   -0.09  0.09   0.76 0.82   2.8
+# 11 blue | belt 602, lift 672, mat 690 | squared body with a wrinkled shoulder around the label.
+11  40    0.03 -0.09   0.80 0.87   3.5
+# 12 pink | belt 621, mat 747 | tilted label panel with a localized glossy rise toward the near corner.
+12  36   -0.14 -0.15   0.69 0.65   2.3
+# 13 blue | mat 800, 805 | fine creases spread over a broad area, shallow near-edge roll.
+13  33   -0.11  0.06   0.83 0.77   2.7
+# 14 blue | belt 663, 693, 756 | flat unlabelled face, narrow dark closure line near one end.
+14  24    0.02 -0.04   0.87 0.81   3.7
+# 16 pink | belt 823, lift 885, mat 905 | substantial belly toward the near edge, taper to corners.
+16  47   -0.13 -0.08   0.73 0.78   2.1
+# 17 white | belt 820, 850, 914 | horizontal pillow shape with a continuous shaded front shoulder.
+17  42   -0.04 -0.09   0.90 0.69   2.7
+# 18 pink | belt 914, lift 954, mat 974 | wide smooth face; slight roll beside the label.
+18  30    0.15 -0.02   0.72 0.80   2.5
+# 19 pink | belt 964, mat 1046 | central cushion with a curling near corner and light catching the shoulder.
+19  45   -0.10 -0.14   0.71 0.74   2.0
+# 20 blue | lift 1077, mat 1095, 1102 | broad curved wrinkles on both sides of a raised oblong panel.
+20  44    0.13 -0.06   0.78 0.66   2.6
+# 21 pink | belt 1044, mat 1158 | thin belt silhouette, gentle roll beneath the lower end of the label.
+21  31   -0.12 -0.04   0.75 0.68   2.3
+# 22 blue | belt 1086, mat 1212 | straight sides, modest rounded highlight; shadow crosses the mat view.
+22  29   -0.04  0.03   0.76 0.82   2.7
+# 23 pink | belt 1087, 1117, 1152 | bowed front seam with a diagonal ridge and slack corners.
+23  37    0.16  0.05   0.65 0.79   1.9
+# 24 pink | belt 1165, lift 1245, mat 1266 | broad raised panel ending in a rolled, shiny near rim.
+24  41    0.10 -0.11   0.85 0.65   3.0
+# 25 pink | mat 1326, 1330 | diagonal fold crosses a rounded patch; corners flatten out well before the weld.
+25  38   -0.16 -0.02   0.68 0.72   2.1
+# 26 pink | belt 1259, 1322, 1365 | bowed edge beside wide folded closure; shallow, asymmetric mound.
+26  33    0.20 -0.11   0.60 0.78   2.0
+# 27 blue | belt 1269, mat 1400 | broad smooth face with very little roll inside the rectangular weld.
+27  26   -0.05 -0.03   0.88 0.84   3.6
+# 29 blue | belt 1384, lift 1446, mat 1467 | pronounced curved shoulder across the near side, slack diagonal folds.
+29  48   -0.08 -0.15   0.76 0.71   2.2
+# 30 pink | belt 1408, mat 1522 | narrow side roll on the belt, wider glossy panel beside the settled label.
+30  39    0.17 -0.04   0.65 0.80   2.8
+# 31 blue | belt 1468, mat 1585 | shallow broad face; lower seam stays nearly straight.
+31  31    0.06 -0.03   0.84 0.76   3.2
+# 32 pink | belt 1491, mat 1647 | thickened long margin around label, tapered into two pointed corners.
+32  42    0.08  0.12   0.85 0.64   2.5
+# 33 white | belt 1559, 1622, 1626 | long shallow face, modest silver sidewall above loose weld.
+33  31   -0.09 -0.07   0.91 0.71   3.3
+# 34 pink | belt 1571, mat 1704 | nearly level upper face, small shine concentrated near the front edge.
+34  28   -0.14 -0.12   0.67 0.78   2.4
+# 35 blue | belt 1649, mat 1763 | broad smooth crown around the label; near corner relaxes into a slim rim.
+35  35   -0.07  0.11   0.80 0.72   2.5
+# 36 blue | belt 1679, 1766; lift 1799 | narrow raised strip above near weld. No settled view in this clip.
+36  32    0.09 -0.10   0.82 0.62   2.9
+# 37 white | belt 1720, 1783, 1792 | narrow, taut body with a deep rounded end and thin projecting end weld.
+37  53   -0.04 -0.08   0.58 0.90   2.8
+# 38 pink | belt 1746, 1797 | one narrow ridge inside the flap, much of the unprinted panel stays flat.
+38  26    0.16  0.02   0.56 0.77   1.8
+# 39 blue | belt 1764, 1799 | front lane, partial behind left arm. Visible right side is shallow;
+# centre, spans and exponent are conservative defaults because the full footprint never clears the arm.
+39  27    0.00  0.00   0.78 0.78   2.5
