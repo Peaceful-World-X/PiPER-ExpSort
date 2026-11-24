@@ -9,6 +9,5 @@ __pycache__/
 # Build stages from the tracked meshes, motion data and material maps.
 /ConveyorCell*.usdc
 /renders/*
-!/renders/PiPER-ExpSort.mp4
 !/renders/PiPER-ExpSort-preview.webp
 /MUJOCO_LOG.TXT
