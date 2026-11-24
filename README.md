@@ -1,6 +1,7 @@
 # 松灵 PiPER 双臂传送带分拣
 
 <p align="center">
+  <a href="https://github.com/Peaceful-World-X/PiPER-ExpSort"><img src="https://visitor-badge.laobi.icu/badge?page_id=Peaceful-World-X.PiPER-ExpSort&amp;left_color=%236B5B52&amp;right_color=%23D97757" alt="访问数"></a>
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?logo=python&amp;logoColor=white" alt="Python 3.12">
   <img src="https://img.shields.io/badge/Windows-11-0078D4" alt="Windows 11">
   <img src="https://img.shields.io/badge/GPU-RTX%204060%20Laptop-478000?logo=nvidia&amp;logoColor=white" alt="RTX 4060 Laptop">
