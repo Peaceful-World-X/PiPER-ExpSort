@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="https://xhslink.cn/o/A1ITg5kKqO5">🎬 在线查看</a> ·
-  <a href="https://github.com/Peaceful-World-X/PiPER-ExpSort/releases">📦 成片下载</a>
+  <a href="https://github.com/Peaceful-World-X/PiPER-ExpSort/releases">📦 视频下载</a>
 </p>
 
 在 NVIDIA Isaac Sim 中复现松灵 PiPER 双臂分拣快递，40 件包裹随传送带从左侧入镜，右臂把选中的软袋夹到工作台，左臂接手并送入侧槽。场景采用运动学回放。37 个软袋分别拟合厚度与封边，10 次翻面按真机中的侧立时刻重建。
